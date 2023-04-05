@@ -1,0 +1,8 @@
+Just check status
+pcp_node_count -v -U admin -p 9898 -h localhost
+pcp_node_info -v -U admin -p 9898 -h localhost -n 0
+pcp_node_info -v -U admin -p 9898 -h localhost -n 1
+
+If they show down, to bring up use this commands:
+pcp_attach_node -v -U admin -p 9898 -h localhost -n 0
+pcp_attach_node -v -U admin -p 9898 -h localhost -n 1
