@@ -1,0 +1,4 @@
+Using root:
+service pgpool-II-10 status
+service pgpool-II-10 stop
+service pgpool-II-10 start
